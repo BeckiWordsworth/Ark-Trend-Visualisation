@@ -9,6 +9,7 @@ const options = {
 const bigqueryClient = new BigQuery(options);
 
 async function getAdsSpend() {
+  // Optimise the query to make it easier to work with later
   const query = `SELECT month_date, ROUND(ads_spend_usd, 2) as ads_spend_usd
     FROM \`ark-interview-case.jewelry_store.ads_spend\``;
 
@@ -56,7 +57,7 @@ async function getPurchaseData() {
 }
 
 async function getReducedPurchaseData() {
-  //optimise the query with only bring in the data we need, reducing query size
+  //optimise the query by only bringing in the data we need, reducing query size
   const query = `
       SELECT 
         order_datetime as datetime, 
