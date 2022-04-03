@@ -8,13 +8,11 @@ Create React components that fetches the data and visualizes it. One of the endp
 
 The `AdsSpendGraph.jsx` file includes a shell of an example React component which fetches data from the server.
 
-You're allowed to install any node packages you want.
-
 ## Pre-requisites
 
 A `bigquery_service_account.json` file in the root directory (you should have gotten access to download this file together with the case).
 
-Latest Node version (e.g. by running `nvm install --lts`).
+Latest Node version (e.g. b running `nvm install --lts`).
 
 ## Getting Started
 
