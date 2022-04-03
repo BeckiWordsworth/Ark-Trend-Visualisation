@@ -1,0 +1,54 @@
+body {
+  min-height: 100vh;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-Content {
+  padding: 0px;
+  background-color: #eee;
+}
+
+.App-Main {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 100vh;
+  max-height: 100vh;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.Page-Header {
+  padding: 10px;
+  border-bottom: solid 1px #ddd;
+  background-color: white;
+}
+
+.Page-Header > h1 {
+  font-size: 1.6em;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.Page-Content {
+  padding: 10px;
+}
+
+.Chart-Area {
+  background-color: white;
+  margin: 0 auto;
+  padding: 14px;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+
+.Chart-Area h2 {
+  font-size: 1.1em;
+  font-weight: bold;
+}
