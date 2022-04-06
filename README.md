@@ -1,8 +1,6 @@
-# Ark-Trend-Visualisation
+# Trend-Visualisation
 
 ## Pre-requisites
-
-A `bigquery_service_account.json` file in the root directory (you should have gotten access to download this file together with the case).
 
 Latest Node version (e.g. b running `nvm install --lts`).
 
